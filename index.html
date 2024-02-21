@@ -1,11 +1,134 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title> UX/UI Homework 20</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<!-- Navigation Section (Using Bootstrap's nav component) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Jiweon Choi</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">UX/UI</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#introduction">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#research">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#problem">Resume</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-</body>
+<!-- Introduction Section (Using Bootstrap's jumbotron component) -->
+<div id="introduction" class="jumbotron">
+  <img src="images/hero cover.png" class="card-img-top" alt="...">
+  <h1 class="display-4">Bookcafe | Mobile App / UX·UI</h1>
+  <p class="lead">Making Reading an even more enjoyable moment by including your friends. Improve your reading experience with enhanced features like tabs, comments, and collaborative reading options, fostering a more engaging and social interaction.
+  </p>
+</div>
+
+<!-- Research Section (Using Bootstrap's card, list group, or collapse components) -->
+<div id="research">
+  <!-- Your research content goes here using Bootstrap components -->
+</div>
+
+<!-- Problem Statement Section (Using Bootstrap's jumbotron component) -->
+<div id="problem" class="jumbotron">
+  <h1 class="display-4">Problem Statement</h1>
+  <p class="lead">Martie is a book lover who needs a modern style mobile reading app that allows her to share her thoughts and experiences while reading a book because she wants to socialize by expressing her emotions and finding out others opinions. How might we create a mobile reading app with social features allowing Martie to share her thoughts and emotions about a book, while also discovering and engaging with others perspectives?</p>
+</div>
+
+<h1 class="display-4">Research</h1>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <img src="images/researchh 2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">After the tests, we identified some usability issues and received feedback. These issues included privacy concerns, missing parts of steps in wireframes for a more enhanced user experience, and other obscure usability issues that were not apparent to us before. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <img src="images/Screen Shot 2024-02-21 at 4.13.54 PM.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">I crafted a foundation for user-centric design by developing detailed user personas, mapping out user journeys, creating prioritization matrices, and constructing empathy maps. This methodical approach allowed me to gain deep insights into the target audience's needs, preferences, and pain points, providing a strategic framework to inform design decisions throughout the project. The integration of user personas, journey maps, prioritization matrices, and empathy maps in the design process ensured a holistic and empathetic understanding of the users, laying the groundwork for a meaningful and tailored reading experience within the app.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Iteration Section (Using Bootstrap's card, list group, collapse, or media object components) -->
+<h1 class="display-4">Iterations</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="images/iteration 22.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Through the prototype, I emphasized the implementation of user-friendly mechanisms for shared reading, interactive discussions, and emotional expression, ensuring a engaging platform where users can read together and share their thoughts and experiences about the book. The interactive prototype showcases the intuitive navigation and the overall immersive environment designed to enhance the communal aspect of reading within the app.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="images/iteration1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">User did not find our pop up design appealing and wanted it rounded</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="images/iteration 2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Reading text doesn't feel like a book. It is not very not appealing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Your iteration content goes here using Bootstrap components -->
+</div>
+<h1 class="display-4">Prototype</h1>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <img src="images/prototype.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Bookclub became an app that not only meets the functional requirements of a reading platform but also provides a delightful and meaningful experience for your users</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Prototype Section (Using Bootstrap's col system) -->
+<div id="prototype" class="container">
+  <div class="row">
+    <div class="col">
+      <!-- Your prototype content goes here -->
+    </div>
+  </div>
+</div>
+
 </html>
